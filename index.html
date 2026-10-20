@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Практическая работа № 4 — IaaS</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #f3f5f9; color: #172033; }
+    main { width: min(760px, 100%); padding: clamp(24px, 5vw, 48px); border: 1px solid #dce2ec; border-radius: 22px; background: #fff; box-shadow: 0 18px 50px #1d2d5012; }
+    .tag { display: inline-flex; padding: 7px 11px; border-radius: 999px; background: #e8f7ee; color: #17683a; font-size: 13px; font-weight: 700; }
+    h1 { margin: 22px 0 12px; font-size: clamp(28px, 5vw, 42px); line-height: 1.12; letter-spacing: -1px; }
+    p { color: #566176; line-height: 1.7; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 28px; }
+    .item { padding: 16px; border: 1px solid #e3e8f0; border-radius: 14px; }
+    .item b { display: block; margin-bottom: 6px; }
+    .item span { color: #68758b; font-size: 14px; }
+    footer { margin-top: 28px; padding-top: 18px; border-top: 1px solid #e8ecf2; font-size: 13px; color: #68758b; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="tag">Сервер отвечает</span>
+    <h1>Практическая работа № 4</h1>
+    <p>Демонстрационная страница веб-сервера, запущенного в облачной Linux-среде. Здесь проверяется доступность HTML-страницы через браузер.</p>
+    <div class="grid">
+      <div class="item"><b>Модель</b><span>IaaS — учебная демонстрация</span></div>
+      <div class="item"><b>Среда</b><span>GitHub Codespaces / Linux</span></div>
+      <div class="item"><b>Веб-сервер</b><span>Python HTTP Server или Apache</span></div>
+      <div class="item"><b>ФИО и группа</b><span>Впишите данные перед скриншотом</span></div>
+    </div>
+    <footer>Учебный проект. Codespaces не является EC2 и не предоставляет постоянный публичный IP.</footer>
+  </main>
+</body>
+</html>
